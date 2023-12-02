@@ -1,5 +1,16 @@
 .logo {
 	 float: left;
+	 width:50px;
+	 height: 50px;
+	 border-radius: 50%;
+	 margin-right: 10px;
+}
+header {
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	width: 100%;
+	padding: 10px;
 }
  nav {
 	 float: right;
@@ -13,18 +24,37 @@
 	 display: inline-block;
 }
  body {
-	 background: #000000;
-	 color: #fff;
+	 background: #fff;
+	 color: #000;
+	 margin: 0px;
 }
  a {
-	 color: #808000
+	 color: #808000 ;
+ 
 }
+ 
  h1 {
 	 color: #008080
 }
  p {
 	 color: #008000
 }
- ol {
-	 color: #008000
+ 
+.h1Logo {
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	font-size: 1.5rem;
+	
+}
+.container {
+	margin-top: 10%
+}
+.customColStyle {
+	text-align: center;
+ .pStyle  {
+    font-size: 1.5rem
+ }
+ 
+    
 }
